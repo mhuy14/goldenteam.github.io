@@ -1,0 +1,248 @@
+body {
+    font-family: "Montserrat";
+}
+.bg {
+    background: url('../images/header-bg.jpg');
+    background-size: cover;
+    padding-bottom: 2rem;
+}
+.welcome {
+    font-family: "Droid Serif";
+    font-size: 1.8rem;
+}
+.b {
+    font-size: 3.5rem;
+}
+h2 {
+    font-weight:700;
+}
+.h2 {
+    font-size: 1.2rem;
+    font-weight:700
+}
+.LOREM {
+    font-size: 0.8rem;
+    font-family: "Droid Serif";
+    color: gray;
+}
+
+.icon {
+    color: #ffc107;
+    font-size: 4rem;
+}
+.button2 {
+    background-color:rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight:500;
+    margin-right: 0.5rem;
+}
+.button1 {
+    color: rgb(255, 255, 255);
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 0.3rem;
+    
+}
+.button1:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 0.3rem;
+}
+.n{
+    width: 100%;
+}
+.m{
+    margin-left:0;
+    margin-right: 0;
+}
+.y img{
+    width: 100%;
+}
+.y {
+    text-align: center;
+}
+.y .h2{
+    margin-bottom: 0;
+}
+.x {
+    padding-top: 1.1rem;
+    padding-bottom: 0.1rem;
+    background-color: white;
+    margin-bottom: 2rem;
+}
+.bg1{
+    background-color: #f7f7f7;
+}
+.SERVICES {
+    padding-top: 5rem;
+}
+.h3 {
+    font-size: 1rem;
+    font-weight:700;
+    margin: 0;
+}
+.anh{
+    background-image: url("../images/about1.jpg");
+    width: 8rem;
+    height: 8rem;
+    background-size: cover;
+}
+.anh1{
+    background-image: url("../images/about2.jpg");
+    width: 8rem;
+    height: 8rem;
+    background-size: cover;
+}
+.anh2{
+    background-image: url("../images/about3.jpg");
+    width: 8rem;
+    height: 8rem;
+    background-size: cover;
+}
+.anh3{
+    background-image: url("../images/about4.jpg");
+    width: 8rem;
+    height: 8rem;
+    background-size: cover;
+}
+.anh4{
+    background: #ffc107;
+    width: 8rem;
+    height: 8rem;
+    background-size: cover;
+}
+.team img{
+    width: 3px;
+    height: auto;
+}
+.logo {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.icon1 {
+    width: 2rem;
+    height: 2rem;
+
+    padding-top: 0.35rem;
+}
+.mhuy {
+    padding-left: -10rem;
+    padding-right: -10rem;
+}
+.icon2 {
+    width: 2rem;
+    height: 2rem;
+    padding-top: 0.5rem;
+    background-color: black;
+    color: white;
+}
+.anh5 {
+    background-image: url("../images/user1.jpg");
+    width: 8rem;
+    height: 8rem;   
+    background-size: cover;
+}
+.anh6 {
+    background-image: url("../images/user2.jpg");
+    width: 8rem;
+    height: 8rem;   
+    background-size: cover;
+}
+.anh7 {
+    background-image: url("../images/user3.jpg");
+    width: 8rem;
+    height: 8rem;   
+    background-size: cover;
+}
+.container1 {
+    display: flex;
+}
+@media (max-width: 768px){
+    .container-fluid img{
+    padding-left: 5rem;
+    }
+    .button2 {
+        background-color:rgba(0, 0, 0, 0);
+        border: none;
+        color: white;
+        padding: 6px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 0.8rem;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-weight:500;
+        margin-right: 0.5rem;
+    }
+    .button1 {
+        width: 100%;
+        text-align: start;
+        color: rgb(255, 255, 255);
+        border: 2px solid rgba(0, 0, 0, 0);
+        border-radius: 0.3rem;
+        margin-left: 0;
+    }
+    .button1:hover {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        border: 2px solid rgba(0, 0, 0, 0);
+        border-radius: 0.3rem;
+    }
+    .forma{
+        margin-left: 5rem;
+    }   
+}
+#exampleFormControlTextarea1 {
+padding-bottom: 6.2rem;
+}
+input[type="name"]
+{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+input[type="email"]
+{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+input[type="subject"]
+{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+input[type="message"]
+{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.bg4{
+    background: rgb(16, 16, 16);
+}
+.anhnen{
+    background-image: url("../images/map.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right 10rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.container {
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(53, 53, 53);
+}
+html {
+    scroll-behavior: smooth;
+}
+  
