@@ -94,24 +94,29 @@ h2 {
     width: 8rem;
     height: 8rem;
     background-size: cover;
+
+    
 }
 .anh1{
     background-image: url("../images/about2.jpg");
     width: 8rem;
     height: 8rem;
     background-size: cover;
+
 }
 .anh2{
     background-image: url("../images/about3.jpg");
     width: 8rem;
     height: 8rem;
     background-size: cover;
+
 }
 .anh3{
     background-image: url("../images/about4.jpg");
     width: 8rem;
     height: 8rem;
     background-size: cover;
+
 }
 .anh4{
     background: #ffc107;
@@ -165,42 +170,6 @@ h2 {
 .container1 {
     display: flex;
 }
-@media (max-width: 768px){
-    .container-fluid img{
-    padding-left: 5rem;
-    }
-    .button2 {
-        background-color:rgba(0, 0, 0, 0);
-        border: none;
-        color: white;
-        padding: 6px 12px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 0.8rem;
-        transition-duration: 0.4s;
-        cursor: pointer;
-        font-weight:500;
-        margin-right: 0.5rem;
-    }
-    .button1 {
-        width: 100%;
-        text-align: start;
-        color: rgb(255, 255, 255);
-        border: 2px solid rgba(0, 0, 0, 0);
-        border-radius: 0.3rem;
-        margin-left: 0;
-    }
-    .button1:hover {
-        background-color: #ffffff;
-        color: rgb(0, 0, 0);
-        border: 2px solid rgba(0, 0, 0, 0);
-        border-radius: 0.3rem;
-    }
-    .forma{
-        margin-left: 5rem;
-    }   
-}
 #exampleFormControlTextarea1 {
 padding-bottom: 6.2rem;
 }
@@ -245,4 +214,51 @@ nav {
 html {
     scroll-behavior: smooth;
 }
-  
+.line{
+    background-color: rgb(216, 216, 216);
+    margin: 11px 5px;
+    position: absolute;
+    width: 4px;
+    height: 50rem;
+    top: 50%;
+    left: 48%;
+}
+.line1{
+    position: relative;
+}
+@media (max-width: 768px){
+    .container-fluid img{
+    padding-left: 5rem;
+    }
+    .button2 {
+        background-color:rgba(0, 0, 0, 0);
+        border: none;
+        color: white;
+        padding: 6px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 0.8rem;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-weight:500;
+        margin-right: 0.5rem;
+    }
+    .button1 {
+        width: 100%;
+        text-align: start;
+        color: rgb(255, 255, 255);
+        border: 2px solid rgba(0, 0, 0, 0);
+        border-radius: 0.3rem;
+        margin-left: 0;
+    }
+    .button1:hover {
+        background-color: #ffffff;
+        color: rgb(161, 161, 161);
+        border: 2px solid rgba(0, 0, 0, 0);
+        border-radius: 0.3rem;
+    }
+    .forma{
+        margin-left: 5rem;
+    }
+} 
